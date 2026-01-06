@@ -17,7 +17,7 @@ public class ThirdLargestElementInAnArray {
                  thirdLargest=secondlargest;
                  secondlargest=num;
              }
-             else if(num>thirdLargest && num!=secondlargest){
+             else if(num>thirdLargest && num!=secondlargest && num!=largest ){
                  thirdLargest=num;
              }
          }
