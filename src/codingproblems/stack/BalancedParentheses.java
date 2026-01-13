@@ -17,7 +17,7 @@ public class BalancedParentheses {
                 if(stack.isEmpty()) return false;
 
                 char top=stack.pop();
-                if((ch==')' && top!='(') || (ch==']' && top!='[' || ch=='{' && ch!='}')){
+                if((ch==')' && top!='(') || (ch==']' && top!='[' || ch=='}' && top!='{')){
                     return false;
                 }
             }

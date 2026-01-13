@@ -7,7 +7,6 @@ public class ReverseAnArray {
         for(int num:arr){
             System.out.print(num+",");
         }
-
     }
     public static void reverse(int[] arr){
         int start=0;
